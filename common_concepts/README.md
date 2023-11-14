@@ -1,0 +1,12 @@
+- Variable are defined by the _let_ keyword
+- By default variables are immutable
+- If program does not compile the program is simply not safe enough
+- Add _mut_ designate future readers of the code that this variable will be changed on a later place
+- Constants are defined by using _const_ keyword
+- Constants are not allowed to be mutable, they are always immutable
+- the type of the value must be annotated
+- Constants may be set only to a constant expression, not the result of a value that could be computed at runtime
+- __Shadowing__ is when a new variable is declared with the same name as a previous variable
+- Shawdowing is different from marking a variable as _mut_ because we get a compile time error if we try to reassign to this variable without using _let_
+- Shawdowing allows to change the type of the value but reuse the same name of the variable
+- Variables cannot change their type
